@@ -1,0 +1,27 @@
+Start with like 100.000 entries for the first stage at least, because our dataset is extremely large.
+
+LSTM: tokenizer with pretrained word embeddings.
+
+Fast-text or word2vec etc...
+
+Web page: (might be useful)
+https://huggingface.co/docs/tokenizers/index
+
+BERT is way more practical to use.
+
+A lot of preprocessing we could do to reduce word count (but probably word count won't matter that much with a reduced dataset).
+
+First: check how we feel about tokenization for LSTM.
+Then: it will be easy for us to do BERT too...
+
+Removing other languages:
+https://pypi.org/project/langdetect/
+
+Maybe don't care about hashtags.
+Maybe not use an autocorrection tool.
+
+collab or kaggle for computations...??? Okay...
+
+If we don't have access to a computational environment, we should inform him in a weak or two...
+
+British vs American English words?!

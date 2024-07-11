@@ -1,0 +1,15 @@
+tf-idf: run the same thing with count vectorizer and see what happens.
+Do naive bayes with the BERT tokenizer. Maybe try bag-of-words for Naive Bayes.
+
+Embeddings:
+token embeddings -> transformer -> model embeddings -> Classification model?
+
+as next step: keep the same training set but try training with 20.000 or 50.000 reviews instead.
+
+word embeddings immediately from bert! And compare with the ones we calculated. I think word embeddings are the same as token embeddings and they are the default ones used by BERT.
+
+Normalization/Scaling of embeddings won't help much?!
+
+The word embeddings are usually normalized, but we can take them after they pass through a normalization layer?!
+
+Just use word embeddings of BERT on LSTM, without the model embeddings BERT gives us in the end.

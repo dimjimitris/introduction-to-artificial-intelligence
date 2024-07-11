@@ -1,0 +1,373 @@
+Using cpu device
+
+ --Information about the sets-- 
+
+Dataset MNIST
+    Number of datapoints: 60000
+    Root location: 
+    Split: Train
+    StandardTransform
+
+Dataset MNIST
+    Number of datapoints: 10000
+    Root location:
+    Split: Test
+    StandardTransform
+Transform: ToTensor()
+
+ --Information about some image--
+
+Image shape: torch.Size([1, 28, 28])
+Label: 5
+Configuration 1/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [200, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.3047710584724943
+Accuracy Score On Train Set: 0.9526166666666667
+Accuracy Score On Test Set: 0.946
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.11179180000908673
+Accuracy Score On Train Set: 0.97665
+Accuracy Score On Test Set: 0.9708
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.07570391378055016
+Accuracy Score On Train Set: 0.97945
+Accuracy Score On Test Set: 0.9722
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.057832007457812626
+Accuracy Score On Train Set: 0.9836666666666667
+Accuracy Score On Test Set: 0.9719
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.04466265098618654
+Accuracy Score On Train Set: 0.9882
+Accuracy Score On Test Set: 0.9753
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.03573032599970854
+Accuracy Score On Train Set: 0.9922333333333333
+Accuracy Score On Test Set: 0.9757
+Configuration 2/11
+{'lr': 0.008, 'batch_size': 100, 'hidden_layers': [200, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.2345979269159337
+Accuracy Score On Train Set: 0.9606333333333333
+Accuracy Score On Test Set: 0.953
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.11185759373707697
+Accuracy Score On Train Set: 0.9726166666666667
+Accuracy Score On Test Set: 0.9639
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.09140740850552295
+Accuracy Score On Train Set: 0.9769333333333333
+Accuracy Score On Test Set: 0.9669
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.07579658072286596
+Accuracy Score On Train Set: 0.9795666666666667
+Accuracy Score On Test Set: 0.969
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.06831432511176293
+Accuracy Score On Train Set: 0.9844
+Accuracy Score On Test Set: 0.9711
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.058875412250636146
+Accuracy Score On Train Set: 0.9865666666666667
+Accuracy Score On Test Set: 0.9695
+Configuration 3/11
+{'lr': 0.016, 'batch_size': 100, 'hidden_layers': [200, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.2540166000338892
+Accuracy Score On Train Set: 0.9472166666666667
+Accuracy Score On Test Set: 0.9421
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.15086289940169081
+Accuracy Score On Train Set: 0.9713333333333334
+Accuracy Score On Test Set: 0.9625
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.1361902533347408
+Accuracy Score On Train Set: 0.9648166666666667
+Accuracy Score On Test Set: 0.9559
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.1312009144667536
+Accuracy Score On Train Set: 0.97045
+Accuracy Score On Test Set: 0.9611
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.12695557989024867
+Accuracy Score On Train Set: 0.9586666666666667
+Accuracy Score On Test Set: 0.9487
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.11958169131462151
+Accuracy Score On Train Set: 0.9753
+Accuracy Score On Test Set: 0.9608
+Configuration 4/11
+{'lr': 0.002, 'batch_size': 1, 'hidden_layers': [200, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.29977978071267164
+Accuracy Score On Train Set: 0.9422666666666667
+Accuracy Score On Test Set: 0.9366
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.22928625499838085
+Accuracy Score On Train Set: 0.9597333333333333
+Accuracy Score On Test Set: 0.9532
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.2186331816862087
+Accuracy Score On Train Set: 0.95295
+Accuracy Score On Test Set: 0.9477
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.22682613642421928
+Accuracy Score On Train Set: 0.9658666666666667
+Accuracy Score On Test Set: 0.9587
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.22638985940418987
+Accuracy Score On Train Set: 0.9601333333333333
+Accuracy Score On Test Set: 0.9516
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.24699061963172717
+Accuracy Score On Train Set: 0.9619166666666666
+Accuracy Score On Test Set: 0.9524
+Configuration 5/11
+{'lr': 0.002, 'batch_size': 1000, 'hidden_layers': [200, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.7379049152135849
+Accuracy Score On Train Set: 0.9088166666666667
+Accuracy Score On Test Set: 0.9101
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.25995662560065586
+Accuracy Score On Train Set: 0.9386333333333333
+Accuracy Score On Test Set: 0.9363
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.1937031219402949
+Accuracy Score On Train Set: 0.9513166666666667
+Accuracy Score On Test Set: 0.9482
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.15119170074661573
+Accuracy Score On Train Set: 0.9629
+Accuracy Score On Test Set: 0.9605
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.12581526065866153
+Accuracy Score On Train Set: 0.9666833333333333
+Accuracy Score On Test Set: 0.9638
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.10360633060336114
+Accuracy Score On Train Set: 0.9717333333333333
+Accuracy Score On Test Set: 0.9655
+Configuration 6/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.47791076434155305
+Accuracy Score On Train Set: 0.91175
+Accuracy Score On Test Set: 0.9151
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.30574265668789546
+Accuracy Score On Train Set: 0.9196833333333333
+Accuracy Score On Test Set: 0.9212
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.2836319160461426
+Accuracy Score On Train Set: 0.9245333333333333
+Accuracy Score On Test Set: 0.9229
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.27380436766892674
+Accuracy Score On Train Set: 0.9279
+Accuracy Score On Test Set: 0.9257
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.2664212550595403
+Accuracy Score On Train Set: 0.9282833333333333
+Accuracy Score On Test Set: 0.9254
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.26242648301025234
+Accuracy Score On Train Set: 0.9297666666666666
+Accuracy Score On Test Set: 0.9249
+Configuration 7/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [200, 100, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.3124969141557813
+Accuracy Score On Train Set: 0.9591833333333334
+Accuracy Score On Test Set: 0.955
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.11749661256559193
+Accuracy Score On Train Set: 0.9746833333333333
+Accuracy Score On Test Set: 0.9659
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.07908374680827061
+Accuracy Score On Train Set: 0.9810666666666666
+Accuracy Score On Test Set: 0.9704
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.05835260510987913
+Accuracy Score On Train Set: 0.9878666666666667
+Accuracy Score On Test Set: 0.9763
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.046488063944852914
+Accuracy Score On Train Set: 0.9879166666666667
+Accuracy Score On Test Set: 0.9759
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.039004275237869784
+Accuracy Score On Train Set: 0.9852166666666666
+Accuracy Score On Test Set: 0.9714
+Configuration 8/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [100, 50], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.34195859473198653
+Accuracy Score On Train Set: 0.9536333333333333
+Accuracy Score On Test Set: 0.9479
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.13729756186405817
+Accuracy Score On Train Set: 0.97275
+Accuracy Score On Test Set: 0.9648
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.09536262173050393
+Accuracy Score On Train Set: 0.9727666666666667
+Accuracy Score On Test Set: 0.9625
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.07490557943470776
+Accuracy Score On Train Set: 0.9833666666666666
+Accuracy Score On Test Set: 0.9708
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.05748977253601576
+Accuracy Score On Train Set: 0.9841333333333333
+Accuracy Score On Test Set: 0.9712
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.047513866435037924
+Accuracy Score On Train Set: 0.9878
+Accuracy Score On Test Set: 0.9729
+Configuration 9/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [200, 100], 'optimizer_type': 'Adam'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 0.2746163241378963
+Accuracy Score On Train Set: 0.9626166666666667
+Accuracy Score On Test Set: 0.9585
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.10884826868462066
+Accuracy Score On Train Set: 0.9767666666666667
+Accuracy Score On Test Set: 0.9687
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.07374412871043508
+Accuracy Score On Train Set: 0.9864833333333334
+Accuracy Score On Test Set: 0.9763
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.054327107712160795
+Accuracy Score On Train Set: 0.989
+Accuracy Score On Test Set: 0.9753
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.04244225428556092
+Accuracy Score On Train Set: 0.99065
+Accuracy Score On Test Set: 0.9766
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.03517913646462451
+Accuracy Score On Train Set: 0.9905666666666667
+Accuracy Score On Test Set: 0.9766
+Configuration 10/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [200, 50], 'optimizer_type': 'SGD'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 2.2874504697322844
+Accuracy Score On Train Set: 0.25716666666666665
+Accuracy Score On Test Set: 0.2508
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 2.237277419169744
+Accuracy Score On Train Set: 0.41345
+Accuracy Score On Test Set: 0.4046
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 2.145845855474472
+Accuracy Score On Train Set: 0.5007333333333334
+Accuracy Score On Test Set: 0.4926
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 1.9835724556446075
+Accuracy Score On Train Set: 0.5891666666666666
+Accuracy Score On Test Set: 0.5858
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 1.7264388338724772
+Accuracy Score On Train Set: 0.6707833333333333
+Accuracy Score On Test Set: 0.6713
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 1.3927107979853948
+Accuracy Score On Train Set: 0.7254333333333334
+Accuracy Score On Test Set: 0.7338
+Configuration 11/11
+{'lr': 0.002, 'batch_size': 100, 'hidden_layers': [200, 50], 'optimizer_type': 'SGD-Momentum'}
+Starting Epoch 1
+--Epoch 1--
+Mean Loss: 1.5900424439211687
+Accuracy Score On Train Set: 0.82725
+Accuracy Score On Test Set: 0.8318
+Starting Epoch 2
+--Epoch 2--
+Mean Loss: 0.4909058019518852
+Accuracy Score On Train Set: 0.8859166666666667
+Accuracy Score On Test Set: 0.8902
+Starting Epoch 3
+--Epoch 3--
+Mean Loss: 0.37163644169767696
+Accuracy Score On Train Set: 0.9024333333333333
+Accuracy Score On Test Set: 0.9036
+Starting Epoch 4
+--Epoch 4--
+Mean Loss: 0.3298041884849469
+Accuracy Score On Train Set: 0.9101333333333333
+Accuracy Score On Test Set: 0.9141
+Starting Epoch 5
+--Epoch 5--
+Mean Loss: 0.30152752311279374
+Accuracy Score On Train Set: 0.9156
+Accuracy Score On Test Set: 0.918
+Starting Epoch 6
+--Epoch 6--
+Mean Loss: 0.27810818088551365
+Accuracy Score On Train Set: 0.9242833333333333
+Accuracy Score On Test Set: 0.9276
